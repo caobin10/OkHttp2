@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">学生宿舍管理系统</string>
+    <string name="update_name">修改</string>
+    <string name="dormitory_admin_system">宿舍管理系统</string>
+    <string name="user">用户名...</string>
+    <string name="password">密码...</string>
+    <string name="student">学生</string>
+    <string name="system_admin">系统管理员</string>
+    <string name="dormitory_admin">宿舍管理员</string>
+    <string name="login">登录</string>
+    <string name="reset">重置</string>
+    <!--系统管理员-->
+    <string name="home_page">1.首页</string>
+    <string name="dormitory_admin_admin">2.宿舍管理员管理</string>
+    <string name="student_admin">3.学生管理</string>
+    <string name="dormitoryfloor_admin">4.宿舍楼管理</string>
+    <string name="absencefromduty_record">5.缺勤记录</string>
+    <string name="update_password">6.修改密码</string>
+    <string name="signout_system">7.退出系统</string>
+    <!--宿舍管理员-->
+    <string name="student_see">2.学生查看</string>
+    <!--系统管理员的列表的信息-->
+    <string name="number">编号：</string>
+    <string name="name">姓名：</string>
+    <string name="name2">名称：</string>
+    <string name="profiles">简介：</string>
+    <string name="sex">姓别：</string>
+    <string name="telephone">电话：</string>
+    <string name="contact_telephone">联系电话：</string>
+    <string name="dormitoryfloor">宿舍楼：</string>
+    <string name="system_admin_user">用户名：</string>
+    <string name="system_password">密码：</string>
+    <string name="repeat_password">重复密码：</string>
+    <string name="student_id">学号：</string>
+    <string name="dorm">寝室：</string>
+    <!--系统管理员的查询-->
+    <string name="please_input_name">请输入姓名</string>
+    <string name="please_input_sex">请输入姓别</string>
+    <string name="please_input_telephone">请输入电话</string>
+    <string name="please_input_dormitoryfloor">请输入宿舍楼</string>
+    <string name="please_input_user">请输入用户名</string>
+</resources>
