@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity
         }
 
 
+
         unitTv= (UnitTextView) findViewById(R.id.tv_unit);
 
 //        unitTv.setText("xx市2");
