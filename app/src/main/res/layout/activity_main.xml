@@ -1,72 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:custom="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <RelativeLayout
-        android:id="@+id/shdztop"
-        android:focusable="true"
-        android:focusableInTouchMode="true"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <EditText
-            android:id="@+id/et_search"
-            android:layout_width="match_parent"
-            android:layout_height="35dp"
-            android:layout_marginBottom="10dp"
-            android:layout_marginRight="20dp"
-            android:layout_marginTop="36dp"
-            android:hint="搜索优惠宝贝"
-            android:imeOptions="actionSearch"
-            android:windowSoftInputMode="stateHidden|adjustPan"
-            android:inputType="textPersonName"
-            android:singleLine="true"
-            android:text=""
-            android:textColorHint="#CCCCCC"
-            android:textSize="12dp" />
-    </RelativeLayout>
-
-    <LinearLayout
-        android:id="@+id/Pll01"
+    <com.datab.cn.ui.UnitTextView
+        android:id="@+id/tv_unit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/shdztop"
-        android:background="#ffffff"
-        android:orientation="vertical">
+        android:background="@drawable/bg_select_input"
+        android:gravity="center_vertical"
+        android:textColor="@color/black"
+        android:textCursorDrawable="@null"
+        android:textSize="18.0sp" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:background="#EEEEEE"></View>
-
-            <TextView
-                android:id="@+id/tv_clear"
-                android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:background="#F6F6F6"
-                android:gravity="center"
-                android:text="清除搜索历史" />
-
-        </LinearLayout>
-    </LinearLayout>
-    <view.FlowViewGroup
-        android:background="#00ffffff"
-        android:padding="5dp"
-        android:layout_below="@+id/Pll01"
-        android:id="@+id/flowlayout"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-
-    </view.FlowViewGroup>
-
-</RelativeLayout>
+</LinearLayout>
