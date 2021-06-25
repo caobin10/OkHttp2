@@ -21,7 +21,6 @@ public class MainActivity extends AppCompatActivity
             e.printStackTrace();
         }
 
-
         unitTv= (UnitTextView) findViewById(R.id.tv_unit);
 
 //        unitTv.setText("xx市2");
