@@ -12,7 +12,6 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class MainActivity extends AppCompatActivity {
-
     private SweetDialog dialog = null;
     @Override
     public void onCreate(Bundle savedInstanceState) {
