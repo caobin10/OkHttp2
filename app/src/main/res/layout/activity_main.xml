@@ -3,16 +3,14 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:gravity="center">
 
-    <com.datab.cn.ui.UnitTextView
-        android:id="@+id/tv_unit"
+    <TextView
+        android:id="@+id/tv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/bg_select_input"
-        android:gravity="center_vertical"
-        android:textColor="@color/black"
-        android:textCursorDrawable="@null"
-        android:textSize="18.0sp" />
+        android:gravity="center"
+        android:textSize="30dp"
+        android:text="****-**-**" />
 
 </LinearLayout>

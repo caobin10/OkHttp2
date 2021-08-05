@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:gravity="center"
+        android:textSize="17sp"
+        android:layout_gravity="center"/>
+    <View
+        android:layout_height="1px"
+        android:background="@color/gray_lighter"
+        android:layout_width="match_parent" />
+    <DatePicker
+        android:id="@+id/dp_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:calendarViewShown="false" />
+    <View
+        android:layout_height="1px"
+        android:background="@color/gray_lighter"
+        android:layout_width="match_parent" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:padding="8.0dp"
+            android:text="@string/cancel"
+            android:background="@drawable/selector_bg_gray"/>
+        <View
+            android:layout_height="match_parent"
+            android:layout_width="1px"
+            android:padding="2.0dp"
+            android:background="@color/gray_lighter" />
+        <Button
+            android:id="@+id/btn_ensure"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:padding="8.0dp"
+            android:text="@string/ensure"
+            android:background="@drawable/selector_bg_gray"/>
+    </LinearLayout>
+</LinearLayout>

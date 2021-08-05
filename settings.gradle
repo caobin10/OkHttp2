@@ -1,1 +1,1 @@
-include ':app', ':tree'
+include ':app'

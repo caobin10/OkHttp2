@@ -9,5 +9,8 @@
     <color name="gray">#cfc8c6</color>
     <color name="white">#FFFFFF</color>
     <color name="red">#ff0000</color>
+    <color name="gray_lighter">#E0E0E0</color>
 
+    <color name="translucent">#70000000</color>
+    <color name="transparent">#00000000</color>
 </resources>
