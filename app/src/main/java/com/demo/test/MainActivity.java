@@ -28,7 +28,6 @@ public class MainActivity extends AppCompatActivity {
 
     private TextView ipTextView = null;
     private TextView nameTextView = null;
-
     private ConnectivityManager mConnectivityManager = null;
     private NetworkInfo mActiveNetInfo = null;
     private EditText userNameEt;
