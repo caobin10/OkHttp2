@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_white_round"
+    android:padding="@dimen/common_mid_padding">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/common_mida_text_size"
+        android:padding="3dp"
+        android:textStyle="bold"
+        android:text="信息提示"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/shape_line_type1"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"/>
+    <TextView
+        android:id="@+id/tv_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/common_mid_text_size"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="5dp" />
+
+    <LinearLayout
+        android:id="@+id/ll_file_down"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="vertical" >
+        <ProgressBar
+            android:id="@+id/pb_received"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="150dip"
+            android:layout_height="5dip"
+            android:max="100"
+            android:visibility="gone"/>
+        <TextView
+            android:id="@+id/tv_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/gray"
+            android:textSize="13sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_ensure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_cancel"
+            style="@style/button_gray"
+            android:text="取消"
+            android:layout_margin="1dp"/>
+        <Button
+            android:id="@+id/btn_ensure"
+            style="@style/button_blue"
+            android:text="确定"
+            android:layout_margin="1dp"/>
+    </LinearLayout>
+
+</LinearLayout>

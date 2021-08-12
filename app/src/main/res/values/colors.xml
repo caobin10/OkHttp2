@@ -13,4 +13,8 @@
 
     <color name="translucent">#70000000</color>
     <color name="transparent">#00000000</color>
+
+    <color name="button_text_color_common">@color/white</color>
+
+    <color name="body_text_color_common">@color/black</color>
 </resources>

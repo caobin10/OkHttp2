@@ -3,4 +3,14 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="system_admin_listview_information_textsize">17dp</dimen>
+
+    <!-- TextSize 基础选项  -->
+    <dimen name="common_text_size">15.0sp</dimen>
+
+    <dimen name="common_mid_padding">8.0dp</dimen>
+
+    <dimen name="common_mida_text_size">18.0sp</dimen>
+
+    <dimen name="common_mid_text_size">17.0sp</dimen>
+
 </resources>

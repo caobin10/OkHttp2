@@ -1,0 +1,25 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+
+
+
+    <dimen name="treenode_height">40dp</dimen>
+    <dimen name="treenode_offset">30dp</dimen>
+    <dimen name="treenode_line_offset">5dp</dimen>
+    <dimen name="treenode_icon_width">30dp</dimen>
+
+
+    <!-- Test -->
+    <dimen name="alert_width">290dp</dimen>
+    <dimen name="common_circle_width">3dp</dimen>
+    <dimen name="progress_circle_radius">34dp</dimen>
+
+    <dimen name="prb_symbolic_tick_default_text_size">15sp</dimen>
+    <dimen name="prb_drawable_tick_default_spacing">1dp</dimen>
+
+
+    <dimen name="table_line">1dip</dimen>
+</resources>
